@@ -2,7 +2,7 @@ name: Build Splytto Android APK
 
 on:
   push:
-    branches: [splytto-android-build]
+    branches: [splytto-android-build, splytto-final-fixes]
     paths:
       - 'splytto-app/**'
       - '.github/workflows/splytto-android-build.yml'
